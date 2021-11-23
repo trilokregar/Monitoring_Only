@@ -1,0 +1,83 @@
+#main-body-view{
+    background-color: #eef5f4;
+    height: 879px;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+#header-btn{
+    position:absolute;
+    top: 35px;
+    right: 65px;;
+}
+#header-btn .btn{
+    background-color: #eef5f4;
+}
+
+#header-btn img{
+    height: 45px;
+    width: 45px;
+}
+
+#page-title {
+    margin-top: 135px;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+
+#page-title .h1-edit{
+    font-size: 1.8rem;
+    color: #4b6b8b;
+}
+
+
+.pad-left{
+    padding-left: 325px;
+}
+
+.pad-right{
+    padding-right: 325px;
+}
+
+.col-lg-6 section{
+    border-radius: 5px;
+    box-shadow: 2px 7px 22px -8px;
+    background-color: #fff;
+    padding: 17px;
+}
+
+#png img{
+    height: 180px;
+    width: 190px;
+    margin-top: 50px;
+}
+
+#section-content p{
+    opacity: .7;
+    font-size: large;
+}
+
+#section-content h3{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: darkslategray;
+    opacity: 0.9;
+
+}
+
+#selection-btn button{
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+#selection-btn button.btn-edit{
+    font-weight: 700;
+    width: 305px;
+    height: 50px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    box-shadow: 0 6px 6px -2px #99c9ea;
+}
