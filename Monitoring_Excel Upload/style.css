@@ -1,0 +1,109 @@
+#main-body-view{
+    background-color: #eef5f4;
+}
+
+#page-header {
+    height: 60px;
+    display: inline-flex;
+    background-color: #fff;
+    width: -webkit-fill-available;
+}
+
+.btn-edit{
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.btn:disabled{
+    opacity: .3;
+}
+
+#previous-btn button .fas{
+    color:#4d7fdc;
+}
+
+.nav-header .header-edit{
+    margin-left: 45px;
+    font-weight: 500;
+    padding: 8px;
+    font-size: 30px;
+}
+
+#content.content-box{
+    margin-top: 40px;
+    height: 800px;
+}
+
+#content section{
+    background-color: #fff;
+    max-height: fit-content;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 40px;
+    border-radius: 5px;
+    /* box-shadow: 2px 7px 22px -8px;  */
+    margin-bottom: 30px;  
+}
+
+#content.height-edit{
+    height: 950px;
+}
+
+.h6-edit{
+    margin-bottom: 0.8rem;
+}
+
+.h3-edit{
+    font-size: 1.4rem;
+}
+
+.p-edit{
+    font-weight: 500;
+    margin-bottom: 0rem;
+}
+
+.right-align{
+    float: right;
+    margin-top: -65px;
+}
+
+.right-align .dropdown .btn-secondary{
+    background-color:#007bff;
+    border-color: #007bff;
+}
+
+.btn.btn-primary{
+    width: 187px;
+}
+
+.dotted-line{
+    border-bottom: 4px dashed rgb(182 66 157);
+} 
+
+#lower-heading .h2-edit{
+    font-weight: 700;
+    margin: 20px 68px 20px 68px;
+    font-size: 1.4rem;
+    color: rgb(182 66 157);
+}
+
+.alert-edit, .check-edit{
+    height: 20px;
+    width: 20px;
+}
+
+.loading-edit{
+    height: 55px;
+    width: 55px;
+    transform: rotate(180deg);
+}
+
+.right-align .pad-left-1{
+    padding-left: 10px;
+}
+
