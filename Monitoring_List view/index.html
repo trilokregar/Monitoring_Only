@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap4 css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- font-awesome -->
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Monitoring list view</title>
+</head>
+
+<body id="main-body-view">
+    <section class="flex-column column-height">
+        <header id="page-header" class="d-flex">
+            <div id="logo" class="ml-4">
+                <a href="index.html">
+                    <img class="logo-edit" alt="logo png" src="./img/logo-owl.png" width=150" height="70">
+                </a>
+            </div>
+            <div class="nav-header">
+                <h1 class="header-edit">Monitoring Untitled 2
+                    <i class="fas fa-pen"></i>
+                </h1>
+            </div>
+            <div class="right-align d-flex">
+                <div class="share">
+                    <button type="button" class="btn btn-primary share-btn-edit">Share
+                        <i class="fas fa-share-alt"></i>
+                    </button>
+                </div>
+                <div class="user">
+                    <button type="button" class="btn user-btn-edit">
+                        <i class="fas fa-user"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <div id="sites-selection" class="add-sites d-flex">
+            <div class="btn-group ml-3 p-3">
+                <button type="button" class="btn new-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    All(10)
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"></a>
+                    <a class="dropdown-item" href="#"></a>
+                    <a class="dropdown-item" href="#"></a>
+                </div>
+            </div>
+            <div class="right-align mt-4 mr-4">
+                <a href="#">+ add sites via map</a>
+            </div>
+        </div>
+
+        <div id="selection-content" class="content-table">
+            <table style="width: 100%;">
+                <tr class="bg-light-blue">
+                    <th>
+                        <div class="form-check">
+                            <input class="check-edit" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                    </th>
+                    <th>Site Name<br>
+                        <span>Media types, Dimensions, Lighting, Region</span>
+                    </th>
+                    <th>City</th>
+                    <th>Contact<br>
+                        <span>Email and Phone no.</span>
+                    </th>
+                    <th>Monitoring Setting<br>
+                        <span>Start and End date</span>
+                    </th>
+                    <th>Latest Update<br>
+                        <span>Status, update count, last updated date</span>
+                    </th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="form-check">
+                            <input class="check-edit" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                    </td>
+                    <td class="d-flex">
+                        <div>
+                            <img class="demo-edit" alt="demo picture" src="./img/demo-pic.jpg">
+                        </div>
+                        <div>
+                            <a href="#">Whitefield junction</a><br>
+                            <span>Foot Over Bridge | 30.0 ft x 7.0 ft | Front Lit</span><br>
+                            <span>Whitefield</span>
+                        </div>
+                    </td>
+                    <td>Bangalore</td>
+                    <td>Sailesh Muthu<br>
+                        sailesh@gmail.com<br>
+                        +91-934343432</td>
+                    <td>Daily<br>
+                        14 nov - 30nov, 2021</td>
+                    <td class="d-flex">
+                        <div>
+                            <img class="demo-edit" alt="demo picture" src="./img/demo-pic.jpg">
+                        </div>
+                        <div>
+                            #4<br>
+                            17 nov, 2021<br>
+                            <a href="#">View all updates</a>
+                        </div>
+                    </td>
+                    <td class="text-lg-right">
+                        <div id="option-button" class="btn-group pr-2">
+                            <button type="button " class="btn bg-transparent" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">edit monitoring setting</a>
+                                <a class="dropdown-item" href="#">pause site monitoring</a>
+                                <a class="dropdown-item" href="#">cancel site monitoring</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="form-check">
+                            <input class="check-edit" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                    </td>
+                    <td class="d-flex">
+                        <div>
+                            <img class="demo-edit" alt="demo picture" src="./img/demo-pic.jpg">
+                        </div>
+                        <div>
+                            <a href="#">Whitefield junction</a><br>
+                            <span>Foot Over Bridge | 30.0 ft x 7.0 ft | Front Lit</span><br>
+                            <span>Whitefield</span>
+                        </div>
+                    </td>
+                    <td>Bangalore</td>
+                    <td></td>
+                    <td></td>
+                    <td class="d-flex">
+                        <div>
+                        </div>
+                        <div>
+                        </div>
+                    </td>
+                    <td class="text-lg-right pr-4">
+                        <a href="#">Setup monitoring</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="form-check">
+                            <input class="check-edit" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                    </td>
+                    <td class="d-flex">
+                        <div>
+                            <img class="demo-edit" alt="demo picture" src="./img/demo-pic.jpg">
+                        </div>
+                        <div>
+                            <a href="#">Whitefield junction</a><br>
+                            <span>Foot Over Bridge | 30.0 ft x 7.0 ft | Front Lit</span><br>
+                            <span>Whitefield</span>
+                        </div>
+                    </td>
+                    <td>Bangalore</td>
+                    <td>Sailesh Muthu<br>
+                        sailesh@gmail.com<br>
+                        +91-934343432</td>
+                    <td>weekly<br>
+                        14 nov - 30nov, 2021</td>
+                    <td class="d-flex">
+                        <div>
+                        </div>
+                        <div>
+                            Scheduled<br>
+                            start on 14 nov
+                        </div>
+                    </td>
+                    <td class="text-lg-right">
+                        <div id="option-button" class="btn-group pr-2">
+                            <button type="button " class="btn bg-transparent" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">edit monitoring setting</a>
+                                <a class="dropdown-item" href="#">pause site monitoring</a>
+                                <a class="dropdown-item" href="#">cancel site monitoring</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="form-check">
+                            <input class="check-edit" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                    </td>
+                    <td class="d-flex">
+                        <div>
+                            <img class="demo-edit" alt="demo picture" src="./img/demo-pic.jpg">
+                        </div>
+                        <div>
+                            <a href="#">Whitefield junction</a><br>
+                            <span>Foot Over Bridge | 30.0 ft x 7.0 ft | Front Lit</span><br>
+                            <span>Whitefield</span>
+                        </div>
+                    </td>
+                    <td>Bangalore</td>
+                    <td>Sailesh Muthu<br>
+                        sailesh@gmail.com<br>
+                        +91-934343432</td>
+                    <td>weekly<br>
+                        14 nov - 30nov, 2021</td>
+                    <td class="d-flex">
+                        <div>
+                        </div>
+                        <div>
+                            Scheduled<br>
+                            start on 14 nov
+                        </div>
+                    </td>
+                    <td class="text-lg-right">
+                        <div id="option-button" class="btn-group pr-2">
+                            <button type="button " class="btn bg-transparent" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">edit monitoring setting</a>
+                                <a class="dropdown-item" href="#">pause site monitoring</a>
+                                <a class="dropdown-item" href="#">cancel site monitoring</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="form-check">
+                            <input class="check-edit" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                    </td>
+                    <td class="d-flex">
+                        <div>
+                            <img class="demo-edit" alt="demo picture" src="./img/demo-pic.jpg">
+                        </div>
+                        <div>
+                            <a href="#">Whitefield junction</a><br>
+                            <span>Foot Over Bridge | 30.0 ft x 7.0 ft | Front Lit</span><br>
+                            <span>Whitefield</span>
+                        </div>
+                    </td>
+                    <td>Bangalore</td>
+                    <td>Sailesh Muthu<br>
+                        sailesh@gmail.com<br>
+                        +91-934343432</td>
+                    <td>weekly<br>
+                        14 nov - 30nov, 2021</td>
+                    <td class="d-flex">
+                        <div>
+                        </div>
+                        <div>
+                            Scheduled<br>
+                            start on 14 nov
+                        </div>
+                    </td>
+                    <td class="text-lg-right">
+                        <div id="option-button" class="btn-group pr-2">
+                            <button type="button " class="btn bg-transparent" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">edit monitoring setting</a>
+                                <a class="dropdown-item" href="#">pause site monitoring</a>
+                                <a class="dropdown-item" href="#">cancel site monitoring</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="form-check">
+                            <input class="check-edit" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                    </td>
+                    <td class="d-flex">
+                        <div>
+                            <img class="demo-edit" alt="demo picture" src="./img/demo-pic.jpg">
+                        </div>
+                        <div>
+                            <a href="#">Whitefield junction</a><br>
+                            <span>Foot Over Bridge | 30.0 ft x 7.0 ft | Front Lit</span><br>
+                            <span>Whitefield</span>
+                        </div>
+                    </td>
+                    <td>Bangalore</td>
+                    <td>Sailesh Muthu<br>
+                        sailesh@gmail.com<br>
+                        +91-934343432</td>
+                    <td>weekly<br>
+                        14 nov - 30nov, 2021</td>
+                    <td class="d-flex">
+                        <div>
+                        </div>
+                        <div>
+                            Scheduled<br>
+                            start on 14 nov
+                        </div>
+                    </td>
+                    <td class="text-lg-right">
+                        <div id="option-button" class="btn-group pr-2">
+                            <button type="button " class="btn bg-transparent" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">edit monitoring setting</a>
+                                <a class="dropdown-item" href="#">pause site monitoring</a>
+                                <a class="dropdown-item" href="#">cancel site monitoring</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="form-check">
+                            <input class="check-edit" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                    </td>
+                    <td class="d-flex">
+                        <div>
+                            <img class="demo-edit" alt="demo picture" src="./img/demo-pic.jpg">
+                        </div>
+                        <div>
+                            <a href="#">Whitefield junction</a><br>
+                            <span>Foot Over Bridge | 30.0 ft x 7.0 ft | Front Lit</span><br>
+                            <span>Whitefield</span>
+                        </div>
+                    </td>
+                    <td>Bangalore</td>
+                    <td>Sailesh Muthu<br>
+                        sailesh@gmail.com<br>
+                        +91-934343432</td>
+                    <td>weekly<br>
+                        14 nov - 30nov, 2021</td>
+                    <td class="d-flex">
+                        <div>
+                        </div>
+                        <div>
+                            Scheduled<br>
+                            start on 14 nov
+                        </div>
+                    </td>
+                    <td class="text-lg-right">
+                        <div id="option-button" class="btn-group pr-2">
+                            <button type="button " class="btn bg-transparent" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">edit monitoring setting</a>
+                                <a class="dropdown-item" href="#">pause site monitoring</a>
+                                <a class="dropdown-item" href="#">cancel site monitoring</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+    </section>
+
+    <!-- dotted line -->
+    <div class="dotted-line"></div>
+
+    <!-- bottom section for FORMS -->
+    <div id="form-section" class="bg-form-section form-col-height">
+        <section class="col-sm-8 ml-17">
+            <div class="pt-5">
+                <span>setup individual monitoring pop up</span>
+            </div>
+            <div class="mt-3 bg-white p-4">
+                <h3>Monitoring Setting</h3>
+                <div class="divider"></div>
+                <div>
+                    <form>
+                        <div class="form-group row">
+                            <label for="inputname" class="col-sm-2 col-form-label">Name</label>
+                            <div class="col-sm-10">
+                                <input type="name" class="form-control" id="inputname"
+                                    placeholder="First name, Last name">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="staticEmail" value="E.g. joe@email.com">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputnumber" class="col-sm-2 col-form-label">Phone no.</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" id="inputnumber"
+                                    placeholder="(+91)(xxxxxxxxxx)">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputnumber" class="col-sm-2 col-form-label">Monitoring Details</label>
+                            <div class="col-sm-10 form-group d-flex">
+                                <select class="form-control col-sm-3" placeholder="Frequency">
+                                    <option>Frequency</option>
+                                    <input class="col-sm-9 calender-edit" type="date" />
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputnotes" class="col-sm-2 col-form-label">Notes</label>
+                            <div class="col-sm-10">
+                                <textarea class="w-100" id="notes" name="notes"
+                                    placeholder=" Enter notes for monitoring person" rows="3" cols="95"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="divider"></div>
+                <div class="text-lg-right p-4">
+                    <button type="button" class="btn btn-cancel mr-2">Cancel</button>
+                    <button type="button" class="btn btn-primary btn-save">Save</button>
+                </div>
+            </div>
+
+
+        </section>
+    </div>
+
+    <!-- 2nd bottom form -->
+    <div id="form-section" class="bg-form-section form-col-height">
+        <section class="col-sm-8 ml-17">
+            <div class="pt-5">
+                <span>edit individual monitoring pop up</span>
+            </div>
+            <div class="mt-3 bg-white p-4">
+                <h3>Monitoring Setting</h3>
+                <div class="divider"></div>
+                <div>
+                    <form>
+                        <div class="form-group row">
+                            <label for="inputname" class="col-sm-2 col-form-label">Name</label>
+                            <div class="col-sm-10">
+                                <input type="name" class="form-control" id="inputname" placeholder="Sailesh Muthu">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="staticEmail" value="sailesh@gmail.com">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputnumber" class="col-sm-2 col-form-label">Phone no.</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" id="inputnumber"
+                                    placeholder="(+91)(2932323232)">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputnumber" class="col-sm-2 col-form-label">Monitoring Details</label>
+                            <div class="col-sm-10 form-group d-flex">
+                                <select class="form-control col-sm-3" placeholder="Frequency">
+                                    <option>Daily</option>
+                                    <input class="col-sm-9 calender-edit" type="date" />
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputnotes" class="col-sm-2 col-form-label">Notes</label>
+                            <div class="col-sm-10">
+                                <textarea class="w-100" id="notes" name="notes"
+                                    placeholder=" take a long distance and short distance pic." rows="3"
+                                    cols="95"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="divider"></div>
+                <div class="text-lg-right p-4">
+                    <button type="button" class="btn btn-cancel mr-2">Cancel</button>
+                    <button type="button" class="btn btn-primary btn-save">Save</button>
+                </div>
+            </div>
+
+
+        </section>
+    </div>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
